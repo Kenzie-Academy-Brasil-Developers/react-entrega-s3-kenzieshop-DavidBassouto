@@ -16,14 +16,14 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
 `;
 
 export const StyledUl = styled.ul`
   width: 100%;
   max-width: 600px;
-  height: fit-content;
-  max-height: 140px;
+  height: 10rem;
+  max-height: 150px;
   overflow-y: scroll;
 
   padding: 10px;
@@ -38,6 +38,7 @@ export const StyledUl = styled.ul`
   justify-content: start;
   > span,
   p {
+    margin-top: 10px;
     color: var(--branco);
     text-shadow: none;
   }
